@@ -14,7 +14,7 @@ int main()
     cv::Mat bgModel, fgModel;
     cv::Mat result1 = cv::Mat(srcImage.rows, srcImage.cols, CV_8UC1, cv::Scalar(cv::GC_BGD));
     cv::Mat roi(result1, rectangle);
-    roi = cv::Scalar(cv::GC_PR_FGD);
+    roi = cv::Scalar(cv::GC_PR_FGD); // 这里相当于将4-pixel的result1 mask赋值为3
 
     double tt = cv::getTickCount();
     cv::grabCut(srcImage, result1, rectangle, bgModel, fgModel, 1, cv::GC_INIT_WITH_MASK);

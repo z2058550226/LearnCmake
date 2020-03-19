@@ -57,27 +57,27 @@ include CMakeFiles/TestCmake.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/TestCmake.dir/flags.make
 
-CMakeFiles/TestCmake.dir/main.cpp.o: CMakeFiles/TestCmake.dir/flags.make
-CMakeFiles/TestCmake.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/suikajy/vscode-workspace/LearnCmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TestCmake.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestCmake.dir/main.cpp.o -c /Users/suikajy/vscode-workspace/LearnCmake/main.cpp
+CMakeFiles/TestCmake.dir/grabCutWithMask.cpp.o: CMakeFiles/TestCmake.dir/flags.make
+CMakeFiles/TestCmake.dir/grabCutWithMask.cpp.o: ../grabCutWithMask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/suikajy/vscode-workspace/LearnCmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TestCmake.dir/grabCutWithMask.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestCmake.dir/grabCutWithMask.cpp.o -c /Users/suikajy/vscode-workspace/LearnCmake/grabCutWithMask.cpp
 
-CMakeFiles/TestCmake.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestCmake.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/suikajy/vscode-workspace/LearnCmake/main.cpp > CMakeFiles/TestCmake.dir/main.cpp.i
+CMakeFiles/TestCmake.dir/grabCutWithMask.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestCmake.dir/grabCutWithMask.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/suikajy/vscode-workspace/LearnCmake/grabCutWithMask.cpp > CMakeFiles/TestCmake.dir/grabCutWithMask.cpp.i
 
-CMakeFiles/TestCmake.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestCmake.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/suikajy/vscode-workspace/LearnCmake/main.cpp -o CMakeFiles/TestCmake.dir/main.cpp.s
+CMakeFiles/TestCmake.dir/grabCutWithMask.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestCmake.dir/grabCutWithMask.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/suikajy/vscode-workspace/LearnCmake/grabCutWithMask.cpp -o CMakeFiles/TestCmake.dir/grabCutWithMask.cpp.s
 
 # Object files for target TestCmake
 TestCmake_OBJECTS = \
-"CMakeFiles/TestCmake.dir/main.cpp.o"
+"CMakeFiles/TestCmake.dir/grabCutWithMask.cpp.o"
 
 # External object files for target TestCmake
 TestCmake_EXTERNAL_OBJECTS =
 
-TestCmake: CMakeFiles/TestCmake.dir/main.cpp.o
+TestCmake: CMakeFiles/TestCmake.dir/grabCutWithMask.cpp.o
 TestCmake: CMakeFiles/TestCmake.dir/build.make
 TestCmake: /usr/local/lib/libopencv_gapi.4.0.0.dylib
 TestCmake: /usr/local/lib/libopencv_stitching.4.0.0.dylib

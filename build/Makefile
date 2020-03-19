@@ -123,32 +123,32 @@ TestCmake/fast:
 	$(MAKE) -f CMakeFiles/TestCmake.dir/build.make CMakeFiles/TestCmake.dir/build
 .PHONY : TestCmake/fast
 
-main.o: main.cpp.o
+grabCutWithMask.o: grabCutWithMask.cpp.o
 
-.PHONY : main.o
+.PHONY : grabCutWithMask.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/TestCmake.dir/build.make CMakeFiles/TestCmake.dir/main.cpp.o
-.PHONY : main.cpp.o
+grabCutWithMask.cpp.o:
+	$(MAKE) -f CMakeFiles/TestCmake.dir/build.make CMakeFiles/TestCmake.dir/grabCutWithMask.cpp.o
+.PHONY : grabCutWithMask.cpp.o
 
-main.i: main.cpp.i
+grabCutWithMask.i: grabCutWithMask.cpp.i
 
-.PHONY : main.i
+.PHONY : grabCutWithMask.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/TestCmake.dir/build.make CMakeFiles/TestCmake.dir/main.cpp.i
-.PHONY : main.cpp.i
+grabCutWithMask.cpp.i:
+	$(MAKE) -f CMakeFiles/TestCmake.dir/build.make CMakeFiles/TestCmake.dir/grabCutWithMask.cpp.i
+.PHONY : grabCutWithMask.cpp.i
 
-main.s: main.cpp.s
+grabCutWithMask.s: grabCutWithMask.cpp.s
 
-.PHONY : main.s
+.PHONY : grabCutWithMask.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/TestCmake.dir/build.make CMakeFiles/TestCmake.dir/main.cpp.s
-.PHONY : main.cpp.s
+grabCutWithMask.cpp.s:
+	$(MAKE) -f CMakeFiles/TestCmake.dir/build.make CMakeFiles/TestCmake.dir/grabCutWithMask.cpp.s
+.PHONY : grabCutWithMask.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... TestCmake"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... grabCutWithMask.o"
+	@echo "... grabCutWithMask.i"
+	@echo "... grabCutWithMask.s"
 .PHONY : help
 
 

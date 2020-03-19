@@ -7,6 +7,6 @@ find_package(OpenCV)
 
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(TestCmake main.cpp)
+add_executable(TestCmake grabCutWithMask.cpp)
 
 target_link_libraries(TestCmake ${OpenCV_LIBS})

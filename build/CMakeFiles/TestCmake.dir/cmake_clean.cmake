@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TestCmake.dir/main.cpp.o"
+  "CMakeFiles/TestCmake.dir/grabCutWithMask.cpp.o"
   "TestCmake"
   "TestCmake.pdb"
 )

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/suikajy/vscode-workspace/LearnCmake/main.cpp
+/Users/suikajy/vscode-workspace/LearnCmake/grabCutWithMask.cpp
 iostream
 -
 opencv2/opencv.hpp
